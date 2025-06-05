@@ -5,7 +5,7 @@ module signExtend (
         output logic [63:0] y
 );
 
-        always_comb begin
+        always @(*) begin
 
                 if ( /* SIGN EXTENSION FOR I TYPE INSTRUCTIONS */
                 (x[31:22] == 10'b1001000100) || //ADDI

@@ -19,28 +19,28 @@ module signExtendTB ();
                 $dumpfile("dump.vcd");
                 $dumpvars(0, signExtendTB);
 
-                xTB = 32'h24400C00; 
-          #1; //ADDI with immediate of 0d2
+                xTB = 32'h91000C00; 
+          #1; //ADDI with immediate of 0d3
 
-                xTB = 32'h245FFC00; 
+                xTB = 32'h911FFC00; 
           #2; //ADDI with immediate of 0d-1
 
-                xTB = 32'h24800C00; 
-          #3; //ANDI with immediate of 0d2
+                xTB = 32'h92000C00; 
+          #3; //ANDI with immediate of 0d3
 
-                xTB = 32'h249FFC00; 
+                xTB = 32'h921FFC00; 
           #4; //ANDI with immediate of 0d-1
 
-                xTB = 32'h2C800C00; 
-          #5; //ORRI with immediate of 0d2
+                xTB = 32'hB2000C00; 
+          #5; //ORRI with immediate of 0d3
 
-                xTB = 32'h2C9FFC00; 
+                xTB = 32'hB21FFC00; 
           #6; //ORRI with immediate of 0d-1
 
-                xTB = 32'h34400C00; 
-          #7; //SUBI with immediate of 0d2
+                xTB = 32'hD1000C00; 
+          #7; //SUBI with immediate of 0d3
 
-                xTB = 32'h345FFC00; 
+                xTB = 32'hD11FFC00; 
           #8; //SUBI with immediate of 0d-1
                  
                 $finish;
