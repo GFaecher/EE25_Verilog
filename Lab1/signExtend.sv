@@ -52,7 +52,7 @@ module signExtend (
                         
                 end
                 else begin
-                        y = 64'hDEADBEEFDEADBEEF;
+                        y = 64'hDEAD_BEEF_DEAD_BEEF;
                 end
 
         end
