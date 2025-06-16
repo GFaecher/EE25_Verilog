@@ -1,0 +1,126 @@
+Picked up _JAVA_OPTIONS:  -XX:+ExitOnOutOfMemoryError -XX:OnOutOfMemoryError="touch /data/cad/group/tolu/fifo_decoder/tb/verisium_debug_logs/out_of_memory_error" 
+CompilerOracle: exclude javax/swing/text/GlyphView.getBreakSpot
+Loading libdac.so from /data/cad/tools/cadence/VERISIUMDEBUG2303/tools/lib/64bit/libdac.so
+
+
+in 'SimConnect::_simcontrolConnect' overlay db = null, overlayH = 0, is valid = false, operation = dapOpen, duFilename = null, isLiveSim = true
+in 'JDACTBDataProvider::notifyLiveConnectionDB', sessionId = 0
+
+
+**** found lwd dir to be: /data/cad/group/tolu/fifo_decoder/tb/xcelium.d/worklib/tb/sv
+
+
+
+**** found cdslib to be: /data/cad/group/tolu/fifo_decoder/tb/xcelium.d/run.d/cds.lib
+
+in 'JDACTBDataProvider::notifyLiveConnectionDB', 'dbH' represents 'simulator' db.
+PPEAttributes values:
+    isAutofetch = false
+    isPersistentSources = false
+    isXprop = false
+    cdslib = /data/cad/group/tolu/fifo_decoder/tb/xcelium.d/run.d/cds.lib
+    snapshot = worklib.tb:sv
+    workdir = /data/cad/group/tolu/fifo_decoder/tb
+    xceliumDir = /data/cad/group/tolu/fifo_decoder/tb/xcelium.d
+    rundDir = /data/cad/group/tolu/fifo_decoder/tb/xcelium.d/run.d
+    bits = 32
+    cds_implicit_tmpdir = 
+    cds_alternate_tmpdir = 
+    du_agent = 
+    lwddir = /data/cad/group/tolu/fifo_decoder/tb/xcelium.d/worklib/tb/sv
+    cds_alternate_cdslib = 
+    elab_options = 
+    found = true
+    nclsRun = false
+    includeCdslib = true
+    nclsOpts =  -snapshot -cdslib /data/cad/group/tolu/fifo_decoder/tb/xcelium.d/run.d/cds.lib
+    isMceMode = false
+    isMceInvolved = false
+    mceLshmDbPath = 
+    lowPowerInformationAvailable = false
+    hasLshmFile = false
+    workdirIsDirectory = true
+    hasOverlayRelatedInformation = true
+    cds_implicit_tmplib = 
+    cds_other_implicit_tmplibs = 
+
+
+Dump DB Order:
+Strap design: simulator #8
+
+End of dump DB Order
+
+
+in 'JDACTBDataProvider::openDBInner', dbPath = /data/cad/group/tolu/fifo_decoder/tb/ida.db/ida.shm, getExplicitLwdFlag() = null
+in 'SimConnect::loadSnapshotHelper', database handle 'ida' is already associated with the design. skipping process creation.
+
+Dump DB Order:
+Strap design: simulator #8
+ --> ida #19
+
+End of dump DB Order
+
+
+
+
+**** found lwd dir to be: /data/cad/group/tolu/fifo_decoder/tb/xcelium.d/worklib/tb/sv
+
+
+
+**** found cdslib to be: /data/cad/group/tolu/fifo_decoder/tb/xcelium.d/run.d/cds.lib
+
+### Excluding compile: javax.swing.text.GlyphView::getBreakSpot
+in 'JDACTBDataProvider::notifyLiveConnectionDB', sessionId = shell
+in 'JDACTBDataProvider::notifyLiveConnectionDB', 'dbH' represents 'simulator' db.
+PPEAttributes values:
+    isAutofetch = false
+    isPersistentSources = false
+    isXprop = false
+    cdslib = /data/cad/group/tolu/fifo_decoder/tb/xcelium.d/run.d/cds.lib
+    snapshot = worklib.tb:sv
+    workdir = /data/cad/group/tolu/fifo_decoder/tb
+    xceliumDir = /data/cad/group/tolu/fifo_decoder/tb/xcelium.d
+    rundDir = /data/cad/group/tolu/fifo_decoder/tb/xcelium.d/run.d
+    bits = 32
+    cds_implicit_tmpdir = 
+    cds_alternate_tmpdir = 
+    du_agent = 
+    lwddir = /data/cad/group/tolu/fifo_decoder/tb/xcelium.d/worklib/tb/sv
+    cds_alternate_cdslib = 
+    elab_options = 
+    found = true
+    nclsRun = false
+    includeCdslib = true
+    nclsOpts =  -snapshot -cdslib /data/cad/group/tolu/fifo_decoder/tb/xcelium.d/run.d/cds.lib
+    isMceMode = false
+    isMceInvolved = false
+    mceLshmDbPath = 
+    lowPowerInformationAvailable = false
+    hasLshmFile = false
+    workdirIsDirectory = true
+    hasOverlayRelatedInformation = true
+    cds_implicit_tmplib = 
+    cds_other_implicit_tmplibs = 
+
+
+Dump DB Order:
+Strap design: simulator #8
+ --> ida #19
+
+End of dump DB Order
+
+
+
+
+
+in 'JDACTBDataProvider::openDBInner', dbPath = /data/cad/group/tolu/fifo_decoder/tb/ida.db/ida.shm, getExplicitLwdFlag() = null
+in 'SimConnect::loadSnapshotHelper', database handle 'ida' is already associated with the design. skipping process creation.
+
+Dump DB Order:
+Strap design: simulator #8
+ --> ida #19
+
+End of dump DB Order
+
+
+

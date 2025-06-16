@@ -1,0 +1,6 @@
+15:11:20:1120 [important] [FelixStartLevel] WARN  - InfoSource version is empty in getMajorMinorVersion()
+15:11:20:1120 [important] [FelixStartLevel] WARN  - InfoSource version not found!! skipping relevant version checks
+15:11:21:1121 [important] [FelixStartLevel] INFO  - xmsim gcc version is 9.3.0
+15:11:21:1121 [important] [FelixStartLevel] INFO  - indago gcc version is 9.3.0
+15:11:21:1121 [important] [TangoTaskManager-4] WARN  - An Indago Snapshot/LWD was not loaded. Scripting API functionality may be impacted.
+15:11:21:1121 [com.cadence.smartlog.bl.common.SLUtils] [TangoTaskManager-5] INFO  - query: 

@@ -1,0 +1,16 @@
+lwd_dir /data/cad/group/tolu/fifo_decoder/tb/xcelium.d/worklib/tb/sv/debug_db/tb/../..
+snapshot_name worklib.tb:sv
+cells 1
+hostname cad-rocky8
+work_directory /data/cad/group/tolu/fifo_decoder/tb
+autofetch 0
+persistent_sources 0
+cdslib ./xcelium.d/run.lnx86.23.03.d/cds.lib
+cds_implicit_tmplib worklib
+hdlvar ./xcelium.d/run.lnx86.23.03.d/hdl.var
+platform x86_64
+bits 32
+du-agent YES
+xprop 0
+automsie 0
+cds_libs /data/cad/group/tolu/fifo_decoder/tb/xcelium.d/run.lnx86.23.03.d/cds.lib /data/cad/group/tolu/fifo_decoder/tb/xcelium.d/run.lnx86.23.03.d/cdsrun.lib /data/cad/tools/cadence/XCELIUM2303/tools/inca/files/cds.lib /data/cad/tools/cadence/XCELIUM2303/tools/inca/files/cdsvhdl.lib /data/cad/tools/cadence/XCELIUM2303/tools/inca/files/cdsvlog.lib /data/cad/tools/cadence/XCELIUM2303/tools/transrecord/files/cds.lib /data/cad/tools/cadence/XCELIUM2303/tools/affirma_ams/etc/connect_lib/cds.lib /data/cad/tools/cadence/XCELIUM2303/tools/affirma_ams/etc/dms/cds.lib

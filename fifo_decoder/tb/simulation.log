@@ -1,0 +1,76 @@
+xrun: 23.03-s013: (c) Copyright 1995-2024 Cadence Design Systems, Inc.
+TOOL:	xrun	23.03-s013: Started on Apr 04, 2025 at 15:21:27 EDT
+xrun
+	-sv
+	-lwdgen
+	-access r
+	-input probe.tcl
+	-gui
+	-verisium
+	+incdir+/data/cad/group/tolu/fifo_decoder/tb
+	-top tb
+	./tb.sv
+	-l ./simulation.log
+Recompiling... reason: file './tb.sv' is newer than expected.
+	expected: Fri Apr  4 15:19:33 2025
+	actual:   Fri Apr  4 15:21:21 2025
+file: ./tb.sv
+	module worklib.tb:sv
+		errors: 0, warnings: 0
+xmvlog: *W,SPDUSD: Include directory /data/cad/group/tolu/fifo_decoder/tb given but not used.
+	Total errors/warnings found outside modules and primitives:
+		errors: 0, warnings: 1
+	Elaborating the design hierarchy:
+		Caching library 'worklib' ....... Done
+	Top level design units:
+		tb
+	Building instance overlay tables: .................... Done
+	Generating native compiled code:
+		worklib.tb:sv <0x2530f215>
+			streams:   5, words: 12233
+	Building instance specific data structures.
+	Loading native compiled code:     .................... Done
+	Design hierarchy summary:
+		                 Instances  Unique
+		Modules:                 2       2
+		Registers:              18      18
+		Scalar wires:            4       -
+		Vectored wires:          4       -
+		Always blocks:          10      10
+		Initial blocks:          3       3
+		Cont. assignments:       1       1
+		Pseudo assignments:      2       -
+		Simulation timescale:  1ps
+	Writing initial simulation snapshot: worklib.tb:sv
+	Parallel LWD Data Generation
+	Generating Debug Data:
+		LWD Database path: (/data/cad/group/tolu/fifo_decoder/tb/xcelium.d/worklib/tb/sv/debug_db/tb)
+		Power Aware Instances:                    0
+		Liberty Instances:                        0
+		Out Of Module References:                 0
+		Assertions:                               0
+		Liberty Information:
+			PG Pins:	                  0
+			Liberty Pins:	                  0
+xmsim: *W,NOMTDGUI: Multi-Threaded Dumping is disabled for interactive debug mode.
+SVSEED default: 1
+
+-------------------------------------
+Relinquished control to Verisium...
+xcelium> 
+xcelium> source /data/cad/tools/cadence/XCELIUM2303/tools/xcelium/files/xmsimrc
+xcelium> ida_probe -wave -wave_probe_args="[scope -top] -all -depth all -memories"
+database -open ida.db/ida.shm 
+Created SHM database ida.db/ida.shm
+
+database -setdefault ida.db/ida.shm
+ida.db/ida.shm is set as default SHM database
+
+probe tb -all -depth all -memories -emptyok
+Created probe 1
+
+xcelium> run
+Simulation complete via $finish(1) at time 335 US + 0
+./tb.sv:62         #1000 @(posedge clk) $finish();
+xcelium> exit
+TOOL:	xrun	23.03-s013: Exiting on Apr 04, 2025 at 15:33:22 EDT  (total: 00:11:55)

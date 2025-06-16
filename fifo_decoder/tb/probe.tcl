@@ -1,0 +1,1 @@
+ida_probe -wave -wave_probe_args="[scope -top] -all -depth all -memories"

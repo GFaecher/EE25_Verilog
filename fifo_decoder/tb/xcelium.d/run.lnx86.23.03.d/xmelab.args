@@ -1,0 +1,22 @@
+//
+// File created by:  xrun
+// Do not modify this file
+//
++incdir+/data/cad/group/tolu/fifo_decoder/tb
+-LWDGEN
+-ACCESS
+r
+-no_analogsolver
+-MESSAGES
+tb
+-XLMODE
+./xcelium.d/run.lnx86.23.03.d
+-RUNMODE
+-CDSLIB
+./xcelium.d/run.lnx86.23.03.d/cds.lib
+-HDLVAR
+./xcelium.d/run.lnx86.23.03.d/hdl.var
+-WORK
+worklib
+-IRUNHASTOP
+-HASXLMODE

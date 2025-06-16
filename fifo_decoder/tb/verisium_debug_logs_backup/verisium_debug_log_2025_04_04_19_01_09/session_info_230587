@@ -1,0 +1,22 @@
+Host Info
+	Hostname: cad-rocky8
+	Verisium Debug PID: 230587
+	OS Version: 5.4.0-204-generic
+	OS Architecture: amd64
+	Scripting Port: 43625
+	xmsim PID: 230383
+Design
+	Design Database: /data/cad/group/tolu/fifo_decoder/tb/xcelium.d/worklib/tb/sv/debug_db/debug_db_design
+Versions
+	Verisium Debug Version: 23.03.001-s
+	xcelium version: 23.03-s013
+	lwd/snapshot version: 23.03-s013
+Invocation command: /data/cad/tools/cadence/VERISIUMDEBUG2303/tools/bin/verisium_debug   -connect dc:cad-rocky8:51577 -interactive
+Databases
+	SHM Database: /data/cad/group/tolu/fifo_decoder/tb/ida.db/ida.shm
+	SHM Database: /data/cad/group/tolu/fifo_decoder/tb/ida.db/ida.shm
+Log Files
+	verisium_debug log: /data/cad/group/tolu/fifo_decoder/tb/verisium_debug_logs/verisium_debug.log
+	verisium_debug_karaf log: /data/cad/group/tolu/fifo_decoder/tb/verisium_debug_logs/verisium_debug_karaf.log
+	ida log: /data/cad/group/tolu/fifo_decoder/tb/verisium_debug_logs/ida.log
+	perf log: /data/cad/group/tolu/fifo_decoder/tb/verisium_debug_logs/perf.log
