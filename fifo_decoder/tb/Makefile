@@ -1,4 +1,4 @@
-MODULE = . /usr/share/Modules/init/sh; module use /usr/cots/modulefiles;
+MODULE = . /usr/share/Modules/init/sh; module use /usr/cots/modulefiles; module load licenses/cadence;
 XCELIUM_MODULE   = tools/xcelium/23.03
 VERISIUM_MODULE   = tools/verisium/23.03
 VERDI_MODULE  = tools/verdi/T-2022.06-1
